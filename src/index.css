@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+code,
+dd,
+div,
+dl,
+dt,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+img,
+label,
+li,
+nav,
+ol,
+p,
+pre,
+section,
+small,
+span,
+strong,
+ul {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: Meiryo, Hiragino Sans, Arial, Hiragino Kaku Gothic ProN, sans-serif;
+    vertical-align: baseline;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.button {
+    position: relative;
+    box-sizing: border-box;
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+body {
+    color: #333;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f5f5f5;
+    border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+}

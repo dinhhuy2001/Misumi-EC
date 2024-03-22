@@ -1,0 +1,10 @@
+.inform--header {
+    height: 60px;
+    background-color: #0f218b;
+    color: #fff;
+}
+
+.inform--header__title {
+    font-size: 1.0625rem;
+    padding-top: 8px;
+}

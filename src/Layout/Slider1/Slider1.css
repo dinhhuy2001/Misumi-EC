@@ -1,0 +1,49 @@
+.slider {
+    margin-top: 2rem;
+}
+
+.slider img {
+    margin: 0 auto;
+}
+
+.custom-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0 10px;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #004098 !important;
+}
+
+.slick-dots li {
+    margin: none !important;
+}
+.slick-dots li button {
+    border-radius: 50%;
+    width: 13px !important;
+    height: 13px !important;
+    background: #ddd !important;
+    margin: 10px 0;
+}
+
+.slick-dots li button:before {
+    font-size: 0 !important;
+}
+
+.right--arrow {
+    font-size: 48px;
+    color: #ddd;
+    position: absolute;
+    left: 96.3%;
+    bottom: 40%;
+}
+
+.left--arrow {
+    font-size: 48px;
+    color: #ddd;
+    position: absolute;
+    bottom: 40%;
+    left: 1.7%;
+    z-index: 10;
+}

@@ -1,0 +1,33 @@
+.inform--box {
+    border: 1px solid #004098;
+    margin-bottom: 1rem;
+    padding: 1rem 0 0.5rem 1rem;
+}
+
+.inform--message {
+    display: flex;
+    height: 18px;
+    width: 100%;
+    color: #333;
+    gap: 10px;
+}
+
+.inform--icon {
+    font-size: 18px;
+}
+.inform--message__content {
+    /* overflow: hidden;
+    white-space: nowrap; */
+    position: relative;
+    width: 100%;
+    font-size: 13px;
+    /* margin-bottom: 0.5rem;
+    padding-right: 2rem;
+    padding-left: 1.5rem;
+    font-size: 0.8125rem; */
+}
+
+.inform--message__content a {
+    text-decoration: underline;
+    color: blue;
+}

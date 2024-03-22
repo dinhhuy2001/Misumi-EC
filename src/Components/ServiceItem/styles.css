@@ -1,0 +1,27 @@
+.service--item {
+    width: calc((100% - 20px) / 3);
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+.service--item img {
+    max-width: 105px;
+    max-height: 80px;
+    object-fit: contain;
+}
+
+.service--item__content {
+    font-size: 13px;
+    color: #333;
+}
+
+.service--item:hover .service--item__content {
+    text-decoration: underline;
+}
+
+.service--item:hover p {
+    color: #004098;
+}

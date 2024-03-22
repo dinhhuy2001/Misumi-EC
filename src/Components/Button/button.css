@@ -1,0 +1,21 @@
+.button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    padding: 4px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button--icon {
+    margin-right: 10px;
+}
+
+.button--content {
+}
