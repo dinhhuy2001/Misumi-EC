@@ -1,0 +1,10 @@
+.inform__link__item {
+    padding: 5px 0 25px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.inform__link__item dd:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #004098;
+}
