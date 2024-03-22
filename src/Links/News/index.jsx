@@ -1,0 +1,45 @@
+export const News = [
+    {
+        src: 'https://jp.misumi-ec.com/operation/top/img/promo_area/20230227/top_promo_icon_pc_order.png',
+        title: '商品選定・注文',
+        time: '2023/11/28',
+        linkContent: 'ミスミのワイヤー電極線、ボビン回収サービスがより環境に配慮しリニューアル',
+        alt: 'news',
+        newNews: 'NEW',
+    },
+    {
+        src: 'https://jp.misumi-ec.com/operation/top/img/promo_area/20230227/top_promo_icon_pc_delivery.png',
+        title: '注文後～受領',
+        time: '2022/7/26',
+        linkContent: '注文後の規格外/納期遅れのお詫び連絡をメールでのご連絡に変更いたしました！',
+        alt: 'news',
+    },
+    {
+        src: 'https://jp.misumi-ec.com/operation/top/img/promo_area/20230227/top_promo_icon_pc_purchase.png',
+        title: '各種書類発行関連',
+        time: '2022/12/9',
+        linkContent: '納品書にお客様注文番号のQRコード追加、スキャン読取が可能になりました。',
+        alt: 'news',
+    },
+    {
+        src: 'https://jp.misumi-ec.com/operation/top/img/promo_area/20230227/top_promo_icon_pc_meviy.png',
+        title: 'meviy（メビー）',
+        time: '2023/3/3',
+        linkContent: '切削丸物部品をmeviy（メビー）で１分見積もり',
+        alt: 'news',
+    },
+    {
+        src: 'https://jp.misumi-ec.com/operation/top/img/promo_area/20230227/top_promo_icon_pc_FRAMES.png',
+        title: 'MISUMI FRAMES',
+        time: '2023/7/4',
+        linkContent: 'アルミ筐体設計ソフト(MISUMI FRAMES)で安全柵の選定・設計がしやすくなりました',
+        alt: 'news',
+    },
+    {
+        src: 'https://jp.misumi-ec.com/operation/top/img/promo_area/20230227/top_promo_icon_pc_site.png',
+        title: 'サイト全般',
+        time: '2022/10/31',
+        linkContent: 'ミスミサイトを「一新」 しました。使いやすく選びやすいサイトにリニューアル',
+        alt: 'news',
+    },
+];

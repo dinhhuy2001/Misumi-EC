@@ -1,0 +1,19 @@
+.news__title__area {
+    position: relative;
+    height: 50px;
+    background: #004098;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news__container {
+    padding: 40px 25px 30px;
+    background-color: #f5f5f5;
+}
+
+.news__container > ul {
+    max-width: 1130px;
+    margin-left: auto;
+    margin-right: auto;
+}
