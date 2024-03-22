@@ -6,15 +6,15 @@ import HomeCategories from '../../Layout/HomeCategories';
 import Banner from '../../Layout/Banner';
 import Services from '../../Layout/Services';
 import HomeNews from '../../Layout/HomeNews';
+import TechBox from '../../Layout/TechBox';
 
 const Home = () => {
     return (
         <div>
-            <Header />
             <Layout>
                 <div
                     className="home--main"
-                    style={{ width: '100%', maxWidth: '1420px', margin: '24px auto', padding: '0 10px' }}
+                    style={{ width: '100%', maxWidth: '1420px', margin: '205px auto', padding: '0 10px' }}
                 >
                     <Inform />
                     <Slider1 />
@@ -22,6 +22,7 @@ const Home = () => {
                     <Banner />
                     <Services />
                     <HomeNews />
+                    <TechBox />
                 </div>
             </Layout>
         </div>

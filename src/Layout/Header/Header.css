@@ -8,3 +8,9 @@
     font-size: 1.0625rem;
     padding-top: 8px;
 }
+
+#header {
+    position: fixed;
+    width: 100%;
+    z-index: 30;
+}
