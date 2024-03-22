@@ -16,15 +16,9 @@
     font-size: 18px;
 }
 .inform--message__content {
-    /* overflow: hidden;
-    white-space: nowrap; */
     position: relative;
     width: 100%;
     font-size: 13px;
-    /* margin-bottom: 0.5rem;
-    padding-right: 2rem;
-    padding-left: 1.5rem;
-    font-size: 0.8125rem; */
 }
 
 .inform--message__content a {

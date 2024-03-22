@@ -1,0 +1,21 @@
+.inform__item__container {
+    font-size: 14px;
+    flex: 1;
+}
+
+.inform__item__title h3 {
+    font-size: 21px;
+}
+
+.inform__item__title a {
+    color: #004098;
+}
+
+.inform__item__title a:hover {
+    text-decoration: underline;
+}
+
+.inform__item__content {
+    margin-top: 22px;
+    border-top: 1px solid #ccc;
+}

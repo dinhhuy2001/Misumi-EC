@@ -1,4 +1,3 @@
-import Header from '../../Layout/Header';
 import Layout from '../../Layout';
 import Slider1 from '../../Layout/Slider1';
 import Inform from '../../Layout/Inform';
@@ -7,6 +6,7 @@ import Banner from '../../Layout/Banner';
 import Services from '../../Layout/Services';
 import HomeNews from '../../Layout/HomeNews';
 import TechBox from '../../Layout/TechBox';
+import InformBox from '../../Layout/InformBox';
 
 const Home = () => {
     return (
@@ -23,6 +23,7 @@ const Home = () => {
                     <Services />
                     <HomeNews />
                     <TechBox />
+                    <InformBox />
                 </div>
             </Layout>
         </div>
