@@ -5,6 +5,7 @@ import Inform from '../../Layout/Inform';
 import HomeCategories from '../../Layout/HomeCategories';
 import Banner from '../../Layout/Banner';
 import Services from '../../Layout/Services';
+import HomeNews from '../../Layout/HomeNews';
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
                     <HomeCategories />
                     <Banner />
                     <Services />
+                    <HomeNews />
                 </div>
             </Layout>
         </div>
