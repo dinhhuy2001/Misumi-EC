@@ -70,10 +70,10 @@ body {
 }
 
 #home--main {
-    width: 100% !important;
-    max-width: 1420px !important;
-    margin: 205px auto !important;
-    padding: 0 10px !important;
+    width: 100%;
+    max-width: 1420px;
+    margin: 205px auto;
+    padding: 0 10px;
 }
 ::-webkit-scrollbar {
     width: 8px;
