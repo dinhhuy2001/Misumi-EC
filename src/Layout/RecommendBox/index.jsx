@@ -41,7 +41,7 @@ const RecommendBox = () => {
         prevArrow: <PrevArrow />,
     };
     return (
-        <div className="mt-20">
+        <div className="mt-20" style={{ marginBottom: '-140px' }}>
             <h2 className="watched__container__title">最近見た商品からのおすすめ商品</h2>
             <p className="watched__container__note mt-5">通常価格、通常出荷日が表示と異なる場合がございます</p>
             <div className="view__history__item__container flex w-full">
