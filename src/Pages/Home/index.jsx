@@ -8,15 +8,13 @@ import HomeNews from '../../Layout/HomeNews';
 import TechBox from '../../Layout/TechBox';
 import InformBox from '../../Layout/InformBox';
 import WatchedContainer from '../../Layout/WatchedContainer';
+import RecommendBox from '../../Layout/RecommendBox';
 
 const Home = () => {
     return (
         <div>
             <Layout>
-                <div
-                    className="home--main"
-                    style={{ width: '100%', maxWidth: '1420px', margin: '205px auto', padding: '0 10px' }}
-                >
+                <div id="home--main">
                     <Inform />
                     <Slider1 />
                     <HomeCategories />
@@ -26,6 +24,7 @@ const Home = () => {
                     <TechBox />
                     <InformBox />
                     <WatchedContainer />
+                    <RecommendBox />
                 </div>
             </Layout>
         </div>

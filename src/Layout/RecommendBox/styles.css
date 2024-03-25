@@ -1,0 +1,35 @@
+.view__history__item__container {
+    margin-top: 32px;
+    min-height: 190px;
+}
+
+.view__history__item {
+    width: 218px;
+    margin-right: 32px;
+    padding: 22px 20px 18px;
+    font-size: 0.8125rem;
+    background-color: #f5f5f5;
+}
+.view__history__item .watched__item__img {
+    justify-content: flex-start;
+    border: none;
+}
+
+.view__history__item__title {
+    font-size: 17px;
+}
+
+.recommend__slider {
+    width: 100%;
+    padding: 0 55px;
+    margin-top: 0px !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.recommend__slider__button--next {
+    left: 101.7%;
+}
+.recommend__slider__button--prev {
+    left: -4.7%;
+}
