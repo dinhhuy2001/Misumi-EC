@@ -14,3 +14,7 @@
     width: 100%;
     z-index: 30;
 }
+
+.inform--header__detail {
+    font-size: 12px;
+}

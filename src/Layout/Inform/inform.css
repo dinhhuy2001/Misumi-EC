@@ -1,7 +1,6 @@
 .inform--box {
     border: 1px solid #004098;
     margin-bottom: 1rem;
-    padding: 1rem 0 0.5rem 1rem;
 }
 
 .inform--message {
@@ -10,15 +9,11 @@
     width: 100%;
     color: #333;
     gap: 10px;
+    padding: 1.5rem 1rem;
 }
 
 .inform--icon {
     font-size: 18px;
-}
-.inform--message__content {
-    position: relative;
-    width: 100%;
-    font-size: 13px;
 }
 
 .inform--message__content a {
