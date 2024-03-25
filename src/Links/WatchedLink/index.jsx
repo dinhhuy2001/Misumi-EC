@@ -1,5 +1,13 @@
 export const WatchedLink = [
     {
+        img: 'https://content.misumi-ec.com/image/upload/t_misumi_wm/t_misumi_wm/v1/p/jp/product/series/110302577950/10302577950_20230801115836.jpg',
+        brand: 'ミスミ',
+        name: 'リニアブッシュ　シングルタイプ',
+        starNumbers: '4.5',
+        price: '330',
+        isExportable: true,
+    },
+    {
         img: 'https://content.misumi-ec.com/image/upload/t_misumi_wm/t_misumi_wm/v1/p/jp/product/series/221000091803/221000091803_20230801115836.jpg',
         brand: 'ＴＨＫ',
         name: 'リニアブッシュ LM形',
@@ -15,14 +23,6 @@ export const WatchedLink = [
         price: '25,501',
         isExportable: false,
     },
-    {
-        img: 'https://content.misumi-ec.com/image/upload/t_misumi_wm/t_misumi_wm/v1/p/jp/product/series/110302577950/10302577950_20230801115836.jpg',
-        brand: 'ミスミ',
-        name: 'リニアブッシュ　シングルタイプ',
-        starNumbers: '4.5',
-        price: '330',
-        isExportable: true,
-    },
 
     {
         img: 'https://content.misumi-ec.com/image/upload/t_misumi_wm/t_misumi_wm/v1/p/jp/product/series/110302612610/10302612610_20230801115836.jpg',
@@ -30,6 +30,14 @@ export const WatchedLink = [
         name: '８シリーズ（溝幅１０ｍｍ）　４０・８０角…',
         starNumbers: '4.5',
         price: '478',
+        isExportable: true,
+    },
+    {
+        img: 'https://content.misumi-ec.com/image/upload/t_misumi_wm/t_misumi_wm/v1/p/jp/product/series/110310565919/110310565919_001_20230801115836.jpg',
+        brand: 'ミスミ',
+        name: '【クリーン洗浄品】５シリーズ（溝幅６ｍｍ…',
+        starNumbers: '0',
+        price: '1,660',
         isExportable: true,
     },
 ];

@@ -11,6 +11,7 @@
 }
 .watched__item__list {
     margin: 32px 64px 0;
+    width: 209px;
 }
 
 .watched__item__img {
