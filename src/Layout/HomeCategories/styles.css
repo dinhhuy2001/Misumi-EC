@@ -115,6 +115,7 @@
 .register--panel__appeal {
     margin-top: 20px;
     text-align: center;
+    font-size: 12px;
 }
 
 .register--panel__guild {
@@ -127,6 +128,7 @@
     border: 1px solid #999;
     display: inline-block;
     cursor: pointer;
+    font-size: 12px;
 }
 
 .panel--guild__content {

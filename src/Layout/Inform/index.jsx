@@ -6,7 +6,7 @@ const Inform = () => {
     return (
         <div>
             <ul className="inform--box">
-                <li className="inform--message flex justify-center items-center">
+                <li className="inform--message flex items-center ">
                     <div className="inform--icon">
                         <FontAwesomeIcon icon={faCircleExclamation} />
                     </div>

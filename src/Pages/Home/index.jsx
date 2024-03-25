@@ -7,6 +7,7 @@ import Services from '../../Layout/Services';
 import HomeNews from '../../Layout/HomeNews';
 import TechBox from '../../Layout/TechBox';
 import InformBox from '../../Layout/InformBox';
+import WatchedContainer from '../../Layout/WatchedContainer';
 
 const Home = () => {
     return (
@@ -24,6 +25,7 @@ const Home = () => {
                     <HomeNews />
                     <TechBox />
                     <InformBox />
+                    <WatchedContainer />
                 </div>
             </Layout>
         </div>
