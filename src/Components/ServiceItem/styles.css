@@ -25,3 +25,9 @@
 .service__item:hover p {
     color: #004098;
 }
+
+@media screen and (max-width: 1199px) {
+    .service__item {
+        width: calc((100% - 10px) / 2);
+    }
+}

@@ -71,6 +71,12 @@ body {
     margin: 24px auto;
     padding: 0 10px;
 }
+
+@media screen and (max-width: 1199px) {
+    #home__main {
+        width: 970px;
+    }
+}
 ::-webkit-scrollbar {
     width: 8px;
     height: 8px;

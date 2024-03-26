@@ -45,7 +45,7 @@ const HomeCategories = () => {
     };
     return (
         <>
-            <div className="home__categories__container flex items-start">
+            <div className="home__categories__container flex">
                 <div className="home__categories--left">
                     <div className="categories--left__wrapper">
                         <h2 className="categories--left__title">おすすめカテゴリ</h2>

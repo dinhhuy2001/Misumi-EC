@@ -6,6 +6,11 @@
     margin-bottom: 20px;
 }
 
+@media screen and (max-width: 1199px) {
+    .news__item {
+        width: 266px;
+    }
+}
 .news__img {
     width: 100px;
     height: 63px;

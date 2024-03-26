@@ -115,6 +115,9 @@
     box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.3);
 }
 
+.navbar__login__button:hover {
+    opacity: 0.9;
+}
 .navbar--right--below {
     gap: 17px;
 }

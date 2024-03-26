@@ -160,3 +160,27 @@
     border-radius: 0;
     cursor: pointer;
 }
+@media screen and (max-width: 1199px) {
+    .home__categories__container {
+        display: block !important;
+    }
+    .home__categories__right {
+        flex-direction: row;
+        margin-top: 20px;
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .home__categories--left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .home__register__form {
+        flex-basis: 50%;
+    }
+    .home__login__form {
+        flex-basis: 50%;
+        margin-top: 0;
+        margin-left: 20px;
+    }
+}
