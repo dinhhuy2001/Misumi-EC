@@ -1,8 +1,8 @@
-.home--categories__container {
-    margin-top: 60px;
+.home__categories__container {
+    margin-top: 76px;
 }
 
-.home--categories__left {
+.home__categories--left {
     flex: 1 1 auto;
 }
 
@@ -49,7 +49,7 @@
     position: absolute;
     z-index: 20;
 }
-.arrow__new {
+.arrow--new {
     font-size: 20px;
     color: #004098;
     font-weight: 700;
@@ -69,22 +69,22 @@
     left: -1%;
 }
 
-.arrow--new__container:hover .arrow__new {
+.arrow--new__container:hover .arrow--new {
     color: #fff;
 }
 .categories--left__slider__text {
     color: #004098;
 }
-.left--slider__list:hover .categories--left__slider__text {
+.left__slider__list:hover .categories--left__slider__text {
     text-decoration: underline;
 }
-.left--slider__list {
+.left__slider__list {
     width: 165px;
     min-height: 150px;
     padding: 6px 15px;
     font-size: 0.8125rem;
 }
-.home--categories__right {
+.home__categories__right {
     max-width: 470px;
     display: flex;
     flex: 52 0 488px;
@@ -92,16 +92,16 @@
     margin-left: 30px;
 }
 
-.home--register__form {
+.home__register__form {
     padding: 30px;
     border: 1px solid #999;
 }
 
-.home--register__title {
+.home__register__title {
     font-size: 1.3125rem;
 }
 
-.register--panel__button {
+.register__panel__button {
     height: 47px;
     padding: 8px 12px;
     color: #333;
@@ -112,13 +112,13 @@
     box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.3);
 }
 
-.register--panel__appeal {
+.register__panel__appeal {
     margin-top: 20px;
     text-align: center;
     font-size: 12px;
 }
 
-.register--panel__guild {
+.register__panel__guild {
     width: 100%;
     margin-top: 20px;
     padding: 13px 10px 10px;
@@ -131,22 +131,22 @@
     font-size: 12px;
 }
 
-.panel--guild__content {
+.panel__guild__content {
     font-weight: 700;
 }
 
-.register--panel__guild:hover p {
+.register__panel__guild:hover p {
     color: #025fae;
     text-decoration: underline;
 }
 
-.home--login__form {
+.home__login__form {
     padding: 30px;
     border: 1px solid #999;
     margin-top: 20px;
 }
 
-.home--login__button {
+.home__login__button {
     width: 100%;
     height: 47px;
     padding: 14px 16px;
@@ -159,4 +159,28 @@
     border: none;
     border-radius: 0;
     cursor: pointer;
+}
+@media screen and (max-width: 1199px) {
+    .home__categories__container {
+        display: block !important;
+    }
+    .home__categories__right {
+        flex-direction: row;
+        margin-top: 20px;
+        margin-left: 0;
+        max-width: 100%;
+    }
+    .home__categories--left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .home__register__form {
+        flex-basis: 50%;
+    }
+    .home__login__form {
+        flex-basis: 50%;
+        margin-top: 0;
+        margin-left: 20px;
+    }
 }

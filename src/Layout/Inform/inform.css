@@ -1,9 +1,9 @@
-.inform--box {
+.inform__box {
     border: 1px solid #004098;
     margin-bottom: 1rem;
 }
 
-.inform--message {
+.inform__message {
     display: flex;
     height: 18px;
     width: 100%;
@@ -12,11 +12,11 @@
     padding: 1.5rem 1rem;
 }
 
-.inform--icon {
+.inform__icon {
     font-size: 18px;
 }
 
-.inform--message__content a {
+.inform__message__content a {
     text-decoration: underline;
     color: blue;
 }

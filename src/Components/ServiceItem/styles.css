@@ -1,4 +1,4 @@
-.service--item {
+.service__item {
     width: calc((100% - 20px) / 3);
     display: flex;
     gap: 10px;
@@ -7,21 +7,27 @@
     cursor: pointer;
 }
 
-.service--item img {
+.service__item img {
     max-width: 105px;
     max-height: 80px;
     object-fit: contain;
 }
 
-.service--item__content {
+.service__item__content {
     font-size: 13px;
     color: #333;
 }
 
-.service--item:hover .service--item__content {
+.service__item:hover .service__item__content {
     text-decoration: underline;
 }
 
-.service--item:hover p {
+.service__item:hover p {
     color: #004098;
+}
+
+@media screen and (max-width: 1199px) {
+    .service__item {
+        width: calc((100% - 10px) / 2);
+    }
 }

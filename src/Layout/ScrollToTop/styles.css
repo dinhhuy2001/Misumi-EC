@@ -1,0 +1,12 @@
+.scroll__container {
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+    color: #fff;
+    font-size: 26px;
+    width: 45px;
+    height: 50px;
+    background-color: #bfbfbf;
+    cursor: pointer;
+    opacity: 0.5;
+}

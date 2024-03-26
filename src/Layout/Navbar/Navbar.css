@@ -4,7 +4,7 @@
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
 }
 
-.navbar--wrapper {
+.navbar__wrapper {
     padding: 18px 16px 13px;
 }
 
@@ -12,15 +12,16 @@
     padding: 0 21px 10px 0;
 }
 
-.navbar--logo {
+.navbar__logo {
     padding: 0 20px 0 12px;
+    margin-top: -1px;
 }
 
-.navbar--logo img {
+.navbar__logo img {
     width: 298px;
     height: 32px;
 }
-.navbar--inform {
+.navbar__inform {
     font-weight: 700;
     font-size: 10.8px;
     line-height: 1.4;
@@ -38,14 +39,14 @@
     background-color: #e1e1e1;
 }
 
-.navbar--left__below {
-    margin-top: 13px;
+.navbar--left--below {
+    margin-top: 14.6px;
 }
 
-.navbar--menu {
+.navbar__menu {
     margin-right: 25px;
 }
-.navbar--button {
+.navbar__button {
     width: 220px;
     height: 33px;
     padding: 7px 20px 6px 10px;
@@ -61,13 +62,13 @@
     position: relative;
 }
 
-.navbar--button span {
+.navbar__button span {
     position: absolute;
     right: 10px;
     top: 5px;
 }
 
-.navbar--search__input {
+.navbar__search__input {
     flex-basis: calc(100% - 75px);
     height: 33px;
     padding-left: 10px;
@@ -77,7 +78,7 @@
     border: 1px solid #a7a7a7;
 }
 
-.search--box__button {
+.search__box__button {
     margin-left: -1px;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
@@ -93,19 +94,19 @@
 .navbar--right {
     min-width: 365px;
 }
-.navbar--right__above {
+.navbar--right--above {
     position: relative;
     width: 168px;
 }
 
-.navbar--right__above button {
+.navbar--right--above button {
     color: #fff;
     background-color: #004098;
     border: none;
     box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.3);
 }
 
-.navbar--login__button {
+.navbar__login__button {
     color: #fff;
     background-color: #004098;
     border: none;
@@ -114,7 +115,10 @@
     box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.3);
 }
 
-.navbar--right__below {
+.navbar__login__button:hover {
+    opacity: 0.9;
+}
+.navbar--right--below {
     gap: 17px;
 }
 .yellow {
@@ -124,11 +128,11 @@
     margin-left: 31px;
 }
 
-.navbar--cart__icon {
+.navbar__cart__icon {
     width: 66px;
 }
 
-.navbar--cart__icon svg {
+.navbar__cart__icon svg {
     width: 32px;
     height: 32px;
     vertical-align: -4px;
@@ -138,7 +142,7 @@
     color: #004098;
 }
 
-.navbar--cart__content {
+.navbar__cart__content {
     width: 100%;
     max-width: 86px;
     margin-top: 5px;
@@ -151,9 +155,9 @@
     text-overflow: ellipsis;
 }
 
-.navbar--button:hover,
+.navbar__button:hover,
 .yellow:hover,
-.navbar--cart__icon:hover {
+.navbar__cart__icon:hover {
     opacity: 0.9;
     cursor: pointer;
 }

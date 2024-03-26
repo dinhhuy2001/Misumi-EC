@@ -3,7 +3,7 @@ import './styles.css';
 const FooterItem = ({ subject }) => {
     return (
         <>
-            <h2 className="footer--subject">{subject}</h2>
+            <h2 className="footer__subject">{subject}</h2>
         </>
     );
 };

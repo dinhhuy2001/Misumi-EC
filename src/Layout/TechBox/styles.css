@@ -2,3 +2,9 @@
     display: flex;
     gap: 60px;
 }
+
+@media screen and (max-width: 1199px) {
+    .techbox__wrapper {
+        display: block;
+    }
+}
