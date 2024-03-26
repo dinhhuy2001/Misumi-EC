@@ -46,10 +46,6 @@ ul {
     list-style: none;
 }
 
-.bold {
-    font-weight: 700;
-}
-
 .button {
     position: relative;
     box-sizing: border-box;
@@ -69,10 +65,10 @@ body {
     opacity: 0.9;
 }
 
-#home--main {
+#home__main {
     width: 100%;
     max-width: 1420px;
-    margin: 205px auto;
+    margin: 24px auto;
     padding: 0 10px;
 }
 ::-webkit-scrollbar {

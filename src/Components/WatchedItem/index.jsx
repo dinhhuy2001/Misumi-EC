@@ -9,7 +9,7 @@ const WatchedItem = ({ img, brand, name, starNumbers, price, isExportable }) => 
         <li className="watched__item__container">
             <a href="#">
                 <div className="watched__item__img">
-                    <img src={img} alt="viewed_item" />
+                    <img src={img} alt="viewed__item" />
                 </div>
                 <p className="watched__item__brand">{brand}</p>
                 <p className="watched__item__name">{name}</p>

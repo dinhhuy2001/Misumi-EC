@@ -4,8 +4,8 @@ const Button = ({ icon, content }) => {
     return (
         <>
             <div className="button">
-                {icon && <div className="button--icon">{icon}</div>}
-                <div className="button--content">{content}</div>
+                {icon && <div className="button__icon">{icon}</div>}
+                <div className="button__content">{content}</div>
             </div>
         </>
     );

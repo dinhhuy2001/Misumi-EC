@@ -3,7 +3,7 @@ import './content.css';
 const Content = ({ children }) => {
     return (
         <div>
-            <div className="content--main">{children}</div>
+            <div className="content__main">{children}</div>
         </div>
     );
 };

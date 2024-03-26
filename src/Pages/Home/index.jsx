@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <div>
             <Layout>
-                <div id="home--main">
+                <div id="home__main">
                     <Inform />
                     <Slider1 />
                     <HomeCategories />

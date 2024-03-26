@@ -1,15 +1,15 @@
-.home--banner__title {
+.home__banner__title {
     font-size: 21px;
 }
-.home--banner__link {
+.home__banner__link {
     font-size: 13px;
     color: #004098;
 }
 
-.home--banner__link:hover {
+.home__banner__link:hover {
     text-decoration: underline;
 }
 
-.home--banner__content {
+.home__banner__content {
     gap: 10px;
 }

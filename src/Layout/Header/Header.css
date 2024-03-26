@@ -1,20 +1,21 @@
-.inform--header {
+.inform__header {
     height: 60px;
     background-color: #0f218b;
     color: #fff;
 }
 
-.inform--header__title {
+.inform__header__title {
     font-size: 1.0625rem;
     padding-top: 8px;
 }
 
 #header {
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100%;
     z-index: 30;
 }
 
-.inform--header__detail {
+.inform__header__detail {
     font-size: 12px;
 }

@@ -8,7 +8,7 @@ const NewsItem = ({ src, title, time, linkContent, alt, newNews }) => {
                     <div className="news__img">
                         <img src={src} alt={alt} />
                     </div>
-                    <div className="news__title text-center bold">{title}</div>
+                    <div className="news__title text-center font-bold">{title}</div>
                 </dt>
                 <dd style={{ fontSize: '12px' }}>
                     <div className="flex gap-2 relative">

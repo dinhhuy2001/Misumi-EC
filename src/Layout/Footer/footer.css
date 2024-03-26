@@ -1,10 +1,11 @@
-.footer--container {
+.footer__container {
     min-width: 990px;
     padding-top: 15px;
     background-color: #f5f5f5;
+    position: relative;
 }
 
-.footer--content {
+.footer__content {
     width: 100%;
     max-width: 1420px;
     margin: 0 auto;
@@ -12,44 +13,44 @@
     position: relative;
 }
 
-.footer--using {
+.footer__using {
     flex-basis: 75%;
 }
 
-.footer--using__content {
+.footer__using__content {
     padding-top: 5px;
 }
 
-.footer--content__item {
+.footer__content__item {
     margin-top: 12px;
     color: #000;
     font-size: 0.8125rem;
 }
 
-.footer--content__item:hover,
-.footer--contact__link:hover {
+.footer__content__item:hover,
+.footer__contact__link:hover {
     color: #004098;
     text-decoration: underline;
 }
 
-.footer--about {
+.footer__about {
     flex-basis: 25%;
     margin-left: 20px;
 }
-.footer--lower {
+.footer__lower {
     width: 100%;
     margin-top: 32px;
 }
 
-.footer--contact__container {
+.footer__contact__container {
     padding: 17px 0;
     font-size: 13px;
 }
 
-.footer--contact__col {
+.footer__contact__col {
     width: 37.5%;
 }
-.footer--copyright {
+.footer__copyright {
     height: 50px;
     margin: 80px 0 0;
     text-align: center;
@@ -60,7 +61,7 @@
     padding: 15px 0;
 }
 
-.footer--contact__info {
+.footer__contact__info {
     margin-top: 15px;
 }
 
@@ -68,4 +69,21 @@
     margin-top: 20px;
     font-weight: 700;
     font-size: 1.0625rem;
+}
+
+.optimal__button {
+    position: absolute;
+    left: 12px;
+    bottom: 100px;
+    width: 45px;
+    height: 45px;
+    background-color: #004098;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.optimal__button:hover {
+    opacity: 0.9;
 }

@@ -1,8 +1,8 @@
-.banner--wrapper {
+.banner__wrapper {
     margin-top: 80px;
 }
 
-.banner--item {
+.banner__item {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,14 +11,15 @@
     border: 1px solid #999;
 }
 
-.banner3--content {
+.banner3__content {
     padding: 15px;
     font-size: 12px;
 }
-.banner3--content p:first-child {
+.banner3__content p:first-child {
+    margin-top: -8px;
     margin-bottom: 10px;
 }
 
-.banner--item:hover {
+.banner__item:hover {
     background-color: #ecf3fc;
 }
