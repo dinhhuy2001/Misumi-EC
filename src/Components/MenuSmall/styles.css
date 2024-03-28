@@ -1,0 +1,16 @@
+.menu--item__title {
+    font-size: 14.4px;
+    color: #666;
+}
+
+.menu--item__link {
+    display: block;
+    color: #004098;
+    font-size: 14.4px;
+    text-decoration: none;
+    text-indent: 0.5rem;
+}
+
+.menu--item__link:hover {
+    background: #ecf3fc;
+}

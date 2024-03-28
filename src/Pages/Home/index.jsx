@@ -9,6 +9,7 @@ import TechBox from '../../Layout/TechBox';
 import InformBox from '../../Layout/InformBox';
 import WatchedContainer from '../../Layout/WatchedContainer';
 import RecommendBox from '../../Layout/RecommendBox';
+import ScrollToTop from '../../Layout/ScrollToTop';
 
 const Home = () => {
     return (
@@ -26,6 +27,7 @@ const Home = () => {
                     <WatchedContainer />
                     <RecommendBox />
                 </div>
+                <ScrollToTop />
             </Layout>
         </div>
     );
