@@ -9,4 +9,5 @@
     background-color: #bfbfbf;
     cursor: pointer;
     opacity: 0.5;
+    z-index: 400;
 }

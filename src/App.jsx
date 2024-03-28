@@ -1,11 +1,19 @@
 import Home from './Pages/Home';
-import ScrollToTop from './Layout/ScrollToTop';
+import Login from './Pages/Login';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import PrivateRoute from './Layout/PrivateRoute';
 
 function App() {
     return (
         <>
-            <Home />
-            <ScrollToTop />
+            <Router>
+                <Routes>
+                    <Route path="/login" element={<Login />} />
+                    <Route path="/" element={<PrivateRoute />}>
+                        <Route exact path="/" element={<Home />} />
+                    </Route>
+                </Routes>
+            </Router>
         </>
     );
 }

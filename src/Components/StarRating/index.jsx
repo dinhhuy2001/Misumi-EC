@@ -8,11 +8,11 @@ const StarRating = ({ rating }) => {
     // Fill starIcons array with full, half, or empty star icons based on rating
     for (let i = 1; i <= 5; i++) {
         if (i <= rating) {
-            starIcons.push(<FontAwesomeIcon icon={faStar} />);
+            starIcons.push(<FontAwesomeIcon icon={faStar} key={i} />);
         } else if (i - 0.5 == rating) {
-            starIcons.push(<FontAwesomeIcon icon={faStarHalfStroke} />);
+            starIcons.push(<FontAwesomeIcon icon={faStarHalfStroke} key={i} />);
         } else {
-            starIcons.push(<FontAwesomeIcon icon={whiteStar} />);
+            starIcons.push(<FontAwesomeIcon icon={whiteStar} key={i} />);
         }
     }
 

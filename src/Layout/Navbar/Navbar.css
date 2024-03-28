@@ -9,6 +9,7 @@
 }
 
 .navbar--left {
+    position: relative;
     padding: 0 21px 10px 0;
 }
 
@@ -62,12 +63,17 @@
     position: relative;
 }
 
-.navbar__button span {
+.navbar__button .toggle--down {
     position: absolute;
     right: 10px;
-    top: 5px;
+    top: 7px;
 }
 
+.navbar__button .toggle--up {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
 .navbar__search__input {
     flex-basis: calc(100% - 75px);
     height: 33px;
@@ -160,4 +166,35 @@
 .navbar__cart__icon:hover {
     opacity: 0.9;
     cursor: pointer;
+}
+
+.menu--mega__container {
+    height: 654.4px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 2000;
+    /* display: none; */
+    gap: 0.5rem;
+    margin-top: -6px;
+}
+
+.visible {
+    display: block;
+}
+.invisible {
+    display: none;
+}
+.menu--mega__main {
+    display: flex;
+    flex-shrink: 0;
+    gap: 40px;
+    height: 100%;
+    padding: 1rem 1.5rem;
+    overflow-y: scroll;
+    line-height: 2rem;
+    white-space: nowrap;
+    background-color: #fff;
+    border: 1px solid #a7a7a7;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
 }

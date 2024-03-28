@@ -8,9 +8,43 @@ import {
     faCartShopping,
     faCircleExclamation,
     faFileLines,
+    faSortUp,
 } from '@fortawesome/free-solid-svg-icons';
+import MenuBig from '../../Components/MenuBig';
+import MenuSmall from '../../Components/MenuSmall';
+import { MenuBigItem, MenuSmallLeftItem } from '../../Links/Menu';
+import { useState, useRef } from 'react';
 
 const Navbar = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const menuRef = useRef();
+
+    const handleButtonHover = () => {
+        setTimeout(() => {
+            setMenuOpen(true);
+        }, 500);
+    };
+
+    const handleMenuHover = () => {
+        setMenuOpen(true);
+    };
+    const handleLeave = () => {
+        setTimeout(() => {
+            if (!menuRef.current.contains(document.activeElement)) {
+                setMenuOpen(false);
+            }
+        }, 500);
+    };
+
+    const handleButtonLeave = () => {
+        setTimeout(() => {
+            if (menuRef.current.contains(document.activeElement)) {
+                setMenuOpen(true);
+            }
+        }, 500);
+    };
+
     return (
         <>
             <div>
@@ -36,14 +70,51 @@ const Navbar = () => {
                                 </div>
                             </div>
                             <div className="navbar--left--below flex">
-                                <div className="navbar__menu">
-                                    <button className="navbar__button">
-                                        カテゴリ・メーカーから探す
-                                        <span>
-                                            <FontAwesomeIcon icon={faSortDown} />
-                                        </span>
-                                    </button>
+                                <div>
+                                    <div className="navbar__menu">
+                                        <button
+                                            className="navbar__button"
+                                            onClick={() => setMenuOpen(!menuOpen)}
+                                            onMouseEnter={handleButtonHover}
+                                            onMouseLeave={handleButtonLeave}
+                                        >
+                                            カテゴリ・メーカーから探す
+                                            <span>
+                                                <FontAwesomeIcon
+                                                    icon={faSortUp}
+                                                    className={`toggle--up ${menuOpen ? 'visible' : 'invisible'} `}
+                                                />
+                                                <FontAwesomeIcon
+                                                    icon={faSortDown}
+                                                    className={`toggle--down ${menuOpen ? 'invisible' : ''}`}
+                                                />
+                                            </span>
+                                        </button>
+                                    </div>
+                                    {menuOpen && (
+                                        <div
+                                            className={`menu--mega__container`}
+                                            ref={menuRef}
+                                            onMouseLeave={handleLeave}
+                                            onMouseEnter={handleMenuHover}
+                                        >
+                                            <div className="menu--mega__main flex">
+                                                <div>
+                                                    <MenuBig title={MenuBigItem[0]} />
+                                                    <MenuSmall content={MenuSmallLeftItem} />
+                                                </div>
+                                                <div>
+                                                    {MenuBigItem.slice(1).map((contentMega, key) => (
+                                                        <MenuBig key={key} title={contentMega.title}>
+                                                            <MenuSmall content={contentMega.content} />
+                                                        </MenuBig>
+                                                    ))}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    )}
                                 </div>
+
                                 <form className="navbar__search flex w-full relative">
                                     <input
                                         type="text"
