@@ -1,6 +1,5 @@
 import './styles.css';
 import { useContext, useRef, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import AuthContext from '../../Layout/AuthContext';
 import Alert from '../../Components/Alert';
 
@@ -11,17 +10,14 @@ const Login = () => {
 
     const inputRef = useRef();
 
-    const navigate = useNavigate();
-
     const { login } = useContext(AuthContext);
 
     const onButtonClick = (e) => {
         e.preventDefault();
         if (userName === 'misumi' && password === 'ilovemisumi') {
-            localStorage.setItem('loggedIn', true);
-            sessionStorage.setItem('reloaded', 'yes');
+            sessionStorage.setItem('login', true);
             login();
-            navigate('/');
+            window.location.reload();
         } else {
             setErr(true);
             setUserName('');
