@@ -1,17 +1,21 @@
 import Home from './Pages/Home';
 import Login from './Pages/Login';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import PrivateRoute from './Layout/PrivateRoute';
 
 function App() {
+    let token = sessionStorage.getItem('login');
+    setTimeout(function () {
+        sessionStorage.clear();
+    }, 10 * 60 * 1000);
     return (
         <>
             <Router>
                 <Routes>
-                    <Route path="/login" element={<Login />} />
-                    <Route path="/" element={<PrivateRoute />}>
+                    {token === null ? (
+                        <Route exact path="/" element={<Login />} />
+                    ) : (
                         <Route exact path="/" element={<Home />} />
-                    </Route>
+                    )}
                 </Routes>
             </Router>
         </>
