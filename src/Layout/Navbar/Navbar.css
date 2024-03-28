@@ -174,7 +174,6 @@
     top: 100%;
     left: 0;
     z-index: 2000;
-    /* display: none; */
     gap: 0.5rem;
     margin-top: -6px;
 }
